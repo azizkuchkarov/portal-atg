@@ -214,7 +214,7 @@ function NavigationGroup({ group, className }) {
 export const navigation = [
   {
     title: 'Asia Trans Gas',
-    links: [{ title: 'O нас', href: '/' }],
+    links: [{ title: 'О нашей компании', href: '/' }],
   },
   {
     title: 'WKC-1',
@@ -403,6 +403,15 @@ export const navigation = [
       //{ title: 'Центр ремонта и техобслуживания', href: '/maintenance' }, */
       { title: 'Отдел по управлению трубопроводом', href: '/pipeline' },
       { title: 'Коммент', href: '/tb/comment' },
+      // here sections
+      { title: 'ЦДУ', href: '/tb/comment' },
+      { title: 'Отдел по техническим вопросам', href: '/tb/comment' },
+      { title: 'Центр ремонта и техобслуживания', href: '/tb/comment' },
+      { title: 'Отдел по управлению трубопроводом', href: '/tb/comment' },
+      { title: 'Отдел по ТБ  и ООС', href: '/tb/comment' },
+      { title: 'Транспортный отдел', href: '/tb/comment' },
+      { title: 'Отдел кадров', href: '/tb/comment' },
+      { title: 'Отдел безопасности', href: '/tb/comment' },
       /*  title: 'Транспортный отдел', href: '/transport' },
       { title: 'Отдел кадров', href: '/tb' },
       { title: 'Отдел безопасности', href: '/cb' }, */

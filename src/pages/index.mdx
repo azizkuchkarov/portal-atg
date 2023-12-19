@@ -1,5 +1,6 @@
 
 import { Guides } from '@/components/KS1/Guides'
+import { History } from '@/components/KS1/History'
 import { Resources } from '@/components/KS1/Resources'
 import { HeroPattern } from '@/components/HeroPattern'
 // import {Compressor1} from '@/components/GCOmpressor'
@@ -12,7 +13,8 @@ import VideoBackground from '../components/videoBackground.jsx';
 export const description = 'Be professional with Asia Trans Gas Academy'
 
 export const sections = [
-  { title: 'Оборудование', id: 'guides' },
+  { title: 'История нашей компании', id: 'history' },
+  { title: 'Станции', id: 'guides' },
   { title: 'Отделы', id: 'resources' },
 
   
@@ -20,7 +22,7 @@ export const sections = [
 
 <HeroPattern />
 
-# О нас
+# О нашей компании
 
 СП ООО «Asia Trans Gas» создано 30 января 2008 г. в г. Ташкенте. Основной задачей СП является строительство и дальнейшая эксплуатация газопровода Узбекистан - Китай
 <div className="my-16 xl:max-w-none">
@@ -63,6 +65,8 @@ Asia Trans Gas - крупный проект строительства газо
   />
 </div> */}
 
+
+<History/>
 <Guides />
 <Resources />
 
