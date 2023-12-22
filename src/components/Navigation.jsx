@@ -419,13 +419,19 @@ export const navigation = [
     ],
   },
   {
-    title: 'Test',
+    title: 'Questions',
     links: [
-      { title: 'Test1', href: '/test1' },
-      /* { title: 'Отдел по ТБ  и ООС', href: '/ooc' }, 
-      { title: 'Отдел по техническим вопросам', href: '/messages' },
-      { title: 'Центр ремонта и техобслуживания', href: '/maintenance' },
-      { title: 'Отдел по управлению трубопроводом', href: '/pipeline' }, */
+      { title: 'Информация', href: '/Test' },
+      { title: 'HSE Section', href: '/TestHSE' },
+      { title: 'WKC1 Questions', href: '/TestWKC1' },
+      { title: 'WKC2 Questions', href: '/TestWKC2' },
+      { title: 'WKC3 Questions', href: '/TestWKC3' },
+      { title: 'MS Questions', href: '/TestMS' },
+      { title: 'UCS1 Questions', href: '/TestUCS1' },
+      { title: 'GCS Questions', href: '/TestGCS' },
+      { title: 'UCS3 Questions', href: '/TestUCS3' },
+      { title: 'UKMS Questions', href: '/TestUKMS' },
+      
     ],
   },
 ]
