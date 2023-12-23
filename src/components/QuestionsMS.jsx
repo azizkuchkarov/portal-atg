@@ -3,73 +3,10 @@ import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
 import { GridPattern } from '@/components/GridPattern'
 import { Heading } from '@/components/Heading'
 import { UserIcon } from '@/components/icons/UserIcon'
+import { ListIcon } from './icons/ListIcon'
 
 const resources = [
-  {
-    href: '/tb/ooc#rukovodyaschie-dokumenty',
-    name: 'Руководящие документы',
-    description: '',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tb/ooc#ism',
-    name: 'ИСМ',
-    description: '',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tb/ooc#treningi-prezentatsii',
-    name: 'Тренинги (Презентации)',
-    description: '',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tb/ooc#okazanie-pervoy-pomoschi',
-    name: 'Оказание первой помощи',
-    description: '',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tb/ooc#grazhdanskaya-zaschita',
-    name: 'Гражданская защита',
-    description: '',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
+
 ]
 
 function ResourceIcon({ icon: Icon }) {
@@ -149,7 +86,7 @@ function Resource({ resource }) {
   )
 }
 
-export function Hse() {
+export function QuestionsMS() {
   return (
     <div className="my-16 xl:max-w-none">
       <Heading level={2} id="resources"></Heading>
