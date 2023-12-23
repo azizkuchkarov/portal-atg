@@ -411,7 +411,7 @@ export const navigation = [
       { title: 'Отдел по ТБ  и ООС', href: '/tb/comment' },
       { title: 'Транспортный отдел', href: '/tb/comment' },
       { title: 'Отдел кадров', href: '/tb/comment' },
-      { title: 'Отдел безопасности', href: '/tb/comment' },
+      { title: 'Отдел безопасности', href: '/cb' },
       /*  title: 'Транспортный отдел', href: '/transport' },
       { title: 'Отдел кадров', href: '/tb' },
       { title: 'Отдел безопасности', href: '/cb' }, */
