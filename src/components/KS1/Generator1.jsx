@@ -8,24 +8,6 @@ export function Genarator11() {
       <div className="my-16 xl:max-w-none">
         <Heading level={2} id="generator1"></Heading>
 
-        
-        <h3>Газогенератора «GE Jenbacher». </h3>
-        <iframe
-          src="https://docs.google.com/presentation/d/e/2PACX-1vShLIOElIDdinsJciFd79oahZrDFNGMayW9uXaHf0BYV8ql3pnxaZ7Co_1b_4g0OaCiz7BYq67WLxBz/embed?start=false&loop=false&delayms=3000"
-          frameborder="0"
-          width="960"
-          height="749"
-          allowfullscreen="true"
-          mozallowfullscreen="true"
-          webkitallowfullscreen="true"
-        ></iframe>
-
-        <Ochistka2Img
-          link={
-            'https://ik.imagekit.io/ATG/image_2023-07-11_10-22-11.png?updatedAt=1689052948864'
-          }
-        />
-
         <ul>
           <li>
             На компрессор станции KC1 установлены 3 единицы Газогенератора «GE
@@ -42,6 +24,9 @@ export function Genarator11() {
           <li>B - Исполнение</li>
           <li>05 - Версия</li>
         </ul>
+        <h3>Газогенератора «GE Jenbacher». </h3>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjrPzlFG0bN8GVkW7JMR1xtMd3z3SdwOfYRVXZ4ZoqnxPUem2G2iy-rjdLbjsQzaEyux9dekyLVFp-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
         <p>
           Газогенератор предназначен для выработки электроэнергии и обеспечить
           электропотребность станции KC1 и вахтового поселка. На станции

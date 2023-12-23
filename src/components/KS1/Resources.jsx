@@ -24,7 +24,7 @@ const resources = [
     },
   },
   {
-    href: '/messages',
+    href: '/tas',
     name: 'Отдел по техническим вопросам',
     description:
       'Зам. Нач. отдела по техническим вопросам,',
@@ -40,7 +40,7 @@ const resources = [
     },
   },
   {
-    href: '/messages',
+    href: '/maintenance',
     name: 'Центр ремонта и техобслуживания',
     description:
       `Зам. Нач. ЦР и TO `,
@@ -69,7 +69,7 @@ const resources = [
     },
   },
   {
-    href: '/maintenance',
+    href: '/tb/ooc',
     name: 'Отдел по ТБ  и ООС',
     description:
       'Нач.отдела по Технике безопасности и охране окружающей среды',
@@ -83,7 +83,7 @@ const resources = [
     },
   },
   {
-    href: '/maintenance',
+    href: '/transport',
     name: 'Транспортный отдел',
     description:
       'Заведующий транспортным отделом',
@@ -97,7 +97,7 @@ const resources = [
     },
   },
   {
-    href: '/maintenance',
+    href: '/hr',
     name: 'Отдел кадров',
     description:
       'Начальник Отдела кадров',
@@ -111,7 +111,7 @@ const resources = [
     },
   },
   {
-    href: '/maintenance',
+    href: '/cb',
     name: 'Отдел безопасности',
     description:
       'Заместитель начальника Бухарского ОУМГ-начальник отдела безопасности',
