@@ -3,13 +3,14 @@ import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
 import { GridPattern } from '@/components/GridPattern'
 import { Heading } from '@/components/Heading'
 import { UserIcon } from '@/components/icons/UserIcon'
+import { ListIcon } from './icons/ListIcon'
 
 const resources = [
   {
-    href: '/tas#sistemy-svyazi',
-    name: 'Системы связи',
-    description: 'Бобоев Шухрат',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSd3035kgIqVAl8dpRsiHyKJbPN4zLgdxOtZEtSuLvPLto8YRQ/viewform?usp=sf_link',
+    name: 'Электроснабжение агрегата SOLAR',
+    description: '10 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -19,10 +20,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#scada',
-    name: 'Scada',
-    description: 'Нуров Музаффар',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7f7a88eEaar5oIJ13v6PeKG4JnCHIftvr3ppW5z-T86ltaA/viewform?usp=sf_link',
+    name: 'Зона АВО газа',
+    description: '9 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -32,10 +33,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#uchet-raskhoda-gaza',
-    name: 'Учет расхода газа',
-    description: 'Ким Артур, Жураев Шерзод',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSeQYQkvH9fmONvMgTLTHao8UfRvLvtzFxRU7jhgAVIZ_bqMUQ/viewform?usp=sf_link',
+    name: 'Промывки ГПА Solar',
+    description: '10 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -45,10 +46,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#pto',
-    name: 'ПТО',
-    description: 'Абдуллаев Рустам',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSflTcWJqBWdiQrnfBoTasAcq5VD3PVWUc8K7emzQH4l8oTIdQ/viewform?usp=sf_link',
+    name: 'Зона очистки газа',
+    description: '10 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -58,10 +59,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#kompressor',
-    name: 'Компрессор',
-    description: 'Воробев Артем, Санжан Нурмуратов',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfA-M6_AqJS2gwhhAcyq7VFvfWxwwqxXEJcr2zdPQZgC77uXw/viewform?usp=sf_link',
+    name: 'Датчиков вибрации на ГПА Solar',
+    description: '13 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -71,10 +72,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#mekhanika',
-    name: 'Механика',
-    description: 'Нарзуллаев Баходир, Бакаев Усмон',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe2-eI-d392kWJG-Qb47jRatLngge1KZ9ACoyunD_QhRAMGEg/viewform?usp=sf_link',
+    name: 'БПТГ',
+    description: '7 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -84,10 +85,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#energetika',
-    name: 'Энергетика',
-    description: 'Мухаммадов Жура',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScdHXw7T0Qs7o0NcSoU_eczXHNARjJ6GtlUwpyeA2HpLnVRWQ/viewform?usp=sf_link',
+    name: 'Пожаротушения ГПА',
+    description: '10 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -97,10 +98,10 @@ const resources = [
     },
   },
   {
-    href: '/tas#metrolog',
-    name: 'Метролог',
-    description: 'Жураев Шерали',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScKOYyn9ySP9SadNTwyAxzVCc7nijqBkHTecR1PvJkxShfGqQ/viewform?usp=sf_link',
+    name: 'Управление агрегатам Solar',
+    description: '9 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -110,10 +111,101 @@ const resources = [
     },
   },
   {
-    href: '/tas#ximik',
-    name: 'Химик',
-    description: 'Расулов Абдулла',
-    icon: UserIcon,
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScYUzW1xwLShVL4io_8UaGbRIy7nBF6Mhm9dS9FkU9sqfkbmg/viewform?usp=sf_link',
+    name: 'Система уплотнения компрессора Solar',
+    description: '10 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSeMgjSJdRrd-l7OO6-MLbxaYJFXQnOM_SZ6oTLeI_RTCI6s3A/viewform?usp=sf_link',
+    name: 'КСВ Comp Air',
+    description: '10 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSf3nWQo1mUz0YMLv7SYZBu_flAPlcbyq_Hnpj9GFQZ-yOgS8g/viewform?usp=sf_link',
+    name: 'Компрессоры',
+    description: '18 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScaDuukiorvkd8xywfgjImmT1CY9DjVC8iR2VAPUOLjftpl4g/viewform?usp=sf_link',
+    name: 'ВОУ от ГПА SOLAR',
+    description: '13 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSdcnSACGC1tHG6lF2MM1pxGa-SVdKSZzQ6lZ1NOu2Jo4NRkXA/viewform?usp=sf_link',
+    name: 'Дизельный генератор',
+    description: '18 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfBTnvNUONqgHImAZxDDR6A-tO8-ztvDki0nUoX4lrFp8Isrw/viewform?usp=sf_link',
+    name: 'Материаловедение',
+    description: '20 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSeM0aVLJmusrfHiSKOHRUIMKCRbnH-1WMWtVj2aeY-roHhvaw/viewform?usp=sf_link',
+    name: 'Газогенератор Caterpillar G3516',
+    description: '15 Вопросов',
+    icon: ListIcon,
+    pattern: {
+      y: 16,
+      squares: [
+        [0, 1],
+        [1, 3],
+      ],
+    },
+  },
+  {
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfVKt3wheJUaggcBk3z3WP8E-ihggwtXZTkO-GoWXXt0wXvHw/viewform?usp=sf_link',
+    name: 'Зона очистки газа',
+    description: '10 Вопросов',
+    icon: ListIcon,
     pattern: {
       y: 16,
       squares: [
@@ -201,7 +293,7 @@ function Resource({ resource }) {
   )
 }
 
-export function Tas() {
+export function QuestionsUCS1() {
   return (
     <div className="my-16 xl:max-w-none">
       <Heading level={2} id="resources"></Heading>

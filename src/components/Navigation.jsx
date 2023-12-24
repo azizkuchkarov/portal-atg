@@ -236,6 +236,7 @@ export const navigation = [
       /* { title: 'КСВ', href: '/wkc1/ksb' }, */
       { title: 'Противопожарная система', href: '/wkc1/firefightning' },
       { title: 'Дополнительные системы', href: '/wkc1/sewerage' },
+      { title: 'Все презентации WKC1', href: '/wkc1/presentation' },
       { title: 'Коммент', href: '/wkc1/comment' },
     ],
   },
@@ -259,9 +260,10 @@ export const navigation = [
       { title: 'ГПЭС', href: '/wkc2/generator' },
       /* { title: 'КСВ (компрессор сжатого воздуха).', href: '/wkc2/ksb' }, */
       {
-        title: 'СИСТЕМА ПОРОШКОВОГО ПОЖАРАТУШЕНИЯ ЦЕХА ГПА',
+        title: 'Системы порошковога пожаратушения цеха ГПА',
         href: '/wkc2/firefighting',
       },
+      { title: 'Все презентации WKC2', href: '/wkc2/presentation' },
       { title: 'Коммент', href: '/wkc2/comment' },
     ],
   },
@@ -284,6 +286,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации WKC3', href: '/wkc3/presentation' },
       { title: 'Коммент', href: '/wkc3/comment' },
 
     ],
@@ -304,6 +307,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации MS', href: '/ms/presentation' },
       { title: 'Коммент', href: '/ms/comment' },
     ],
   },
@@ -326,6 +330,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации UCS1', href: '/ucs1/presentation' },
       { title: 'Коммент', href: '/ucs1/comment' },
     ],
   },
@@ -347,6 +352,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации GCS', href: '/gcs/presentation' },
       { title: 'Коммент', href: '/gcs/comment' },
 
     ],
@@ -369,6 +375,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации UCS3', href: '/ucs3/presentation' },
       { title: 'Коммент', href: '/ucs3/comment' },
 
     ],
@@ -389,6 +396,7 @@ export const navigation = [
       { title: 'Система электроснабжения', href: '/wkc3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
       { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Все презентации UKMS', href: '/ukms/presentation' },
       { title: 'Коммент', href: '/ukms/comment' },
 
     ],
@@ -402,30 +410,29 @@ export const navigation = [
       { title: 'Отдел по техническим вопросам', href: '/tas' },
       //{ title: 'Центр ремонта и техобслуживания', href: '/maintenance' }, */
       { title: 'Отдел по управлению трубопроводом', href: '/pipeline' },
-      { title: 'Коммент', href: '/tb/comment' },
       // here sections
-      { title: 'ЦДУ', href: '/tb/comment' },
-      { title: 'Отдел по техническим вопросам', href: '/tb/comment' },
-      { title: 'Центр ремонта и техобслуживания', href: '/tb/comment' },
-      { title: 'Отдел по управлению трубопроводом', href: '/tb/comment' },
-      { title: 'Отдел по ТБ  и ООС', href: '/tb/comment' },
-      { title: 'Транспортный отдел', href: '/tb/comment' },
-      { title: 'Отдел кадров', href: '/tb/comment' },
-      { title: 'Отдел безопасности', href: '/tb/comment' },
-      /*  title: 'Транспортный отдел', href: '/transport' },
-      { title: 'Отдел кадров', href: '/tb' },
-      { title: 'Отдел безопасности', href: '/cb' }, */
-      // { title: 'Transport department', href: '/transport' }, */
+      { title: 'ЦДУ', href: '/cdu' },
+      { title: 'Центр ремонта и техобслуживания', href: '/maintenance' },
+      { title: 'Транспортный отдел', href: '/transport' },
+      { title: 'Отдел кадров', href: '/hr' },
+      { title: 'Отдел безопасности', href: '/cb' },
+      { title: 'Коммент', href: '/tb/comment' },
     ],
   },
   {
-    title: 'Test',
+    title: 'Questions',
     links: [
-      { title: 'Test1', href: '/test1' },
-      /* { title: 'Отдел по ТБ  и ООС', href: '/ooc' }, 
-      { title: 'Отдел по техническим вопросам', href: '/messages' },
-      { title: 'Центр ремонта и техобслуживания', href: '/maintenance' },
-      { title: 'Отдел по управлению трубопроводом', href: '/pipeline' }, */
+      { title: 'Информация', href: '/Test' },
+      { title: 'HSE Section', href: '/TestHSE' },
+      { title: 'WKC1 Questions', href: '/TestWKC1' },
+      { title: 'WKC2 Questions', href: '/TestWKC2' },
+      { title: 'WKC3 Questions', href: '/TestWKC3' },
+      { title: 'MS Questions', href: '/TestMS' },
+      { title: 'UCS1 Questions', href: '/TestUCS1' },
+      { title: 'GCS Questions', href: '/TestGCS' },
+      { title: 'UCS3 Questions', href: '/TestUCS3' },
+      { title: 'UKMS Questions', href: '/TestUKMS' },
+      
     ],
   },
 ]

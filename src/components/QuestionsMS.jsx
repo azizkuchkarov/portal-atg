@@ -3,125 +3,10 @@ import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
 import { GridPattern } from '@/components/GridPattern'
 import { Heading } from '@/components/Heading'
 import { UserIcon } from '@/components/icons/UserIcon'
+import { ListIcon } from './icons/ListIcon'
 
 const resources = [
-  {
-    href: '/tas#sistemy-svyazi',
-    name: 'Системы связи',
-    description: 'Бобоев Шухрат',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#scada',
-    name: 'Scada',
-    description: 'Нуров Музаффар',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#uchet-raskhoda-gaza',
-    name: 'Учет расхода газа',
-    description: 'Ким Артур, Жураев Шерзод',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#pto',
-    name: 'ПТО',
-    description: 'Абдуллаев Рустам',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#kompressor',
-    name: 'Компрессор',
-    description: 'Воробев Артем, Санжан Нурмуратов',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#mekhanika',
-    name: 'Механика',
-    description: 'Нарзуллаев Баходир, Бакаев Усмон',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#energetika',
-    name: 'Энергетика',
-    description: 'Мухаммадов Жура',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#metrolog',
-    name: 'Метролог',
-    description: 'Жураев Шерали',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
-  {
-    href: '/tas#ximik',
-    name: 'Химик',
-    description: 'Расулов Абдулла',
-    icon: UserIcon,
-    pattern: {
-      y: 16,
-      squares: [
-        [0, 1],
-        [1, 3],
-      ],
-    },
-  },
+
 ]
 
 function ResourceIcon({ icon: Icon }) {
@@ -201,7 +86,7 @@ function Resource({ resource }) {
   )
 }
 
-export function Tas() {
+export function QuestionsMS() {
   return (
     <div className="my-16 xl:max-w-none">
       <Heading level={2} id="resources"></Heading>
